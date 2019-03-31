@@ -6,6 +6,6 @@ import (
 )
 
 func TestUtil(t *testing.T) {
-	v := Print("A")
+	v := Print("A", "v2")
 	fmt.Println(v)
 }
